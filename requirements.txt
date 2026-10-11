@@ -1,0 +1,2 @@
+# Pour Streamlit Community Cloud (installe le paquet local avec Azure/OpenAI et l'interface).
+.[openai,ui]

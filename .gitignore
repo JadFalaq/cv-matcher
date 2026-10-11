@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+evaluation/results/
+# Ne jamais versionner de vrais CV (données personnelles, RGPD)
+data/private/
+.streamlit/secrets.toml

@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cvmatch"
+version = "0.1.0"
+description = "Adapter son CV à une offre, compétence par compétence (RAG + LangGraph, agentique)"
+requires-python = ">=3.10"
+dependencies = [
+  "langgraph>=0.2",
+  "langchain-core>=0.3",
+  "pydantic>=2.5",
+  "numpy>=1.24",
+  "python-dotenv>=1.0",
+  "pypdf>=4.0",
+]
+
+[project.optional-dependencies]
+openai = ["langchain-openai>=0.2"]       # OpenAI et Azure OpenAI
+anthropic = ["langchain-anthropic>=0.2"]
+ollama = ["langchain-ollama>=0.2"]
+api = ["fastapi>=0.110", "uvicorn>=0.29", "python-multipart>=0.0.9"]
+ui = ["streamlit>=1.45"]
+dev = ["pytest>=7.4", "httpx>=0.27", "fastapi>=0.110", "python-multipart>=0.0.9", "streamlit>=1.45"]
+
+[project.scripts]
+cvmatch = "cvmatch.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

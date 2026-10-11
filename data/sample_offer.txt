@@ -1,0 +1,22 @@
+Stage PFE – AI Engineer (RAG & agents) – 6 mois
+
+À propos
+Nous développons des assistants IA pour des équipes finance et leur apportons des solutions utiles au quotidien.
+
+Missions
+- Concevoir des pipelines RAG pour interroger des documents internes
+- Développer des agents IA orchestrés avec LangGraph
+- Déployer les services sous forme d'API REST conteneurisées avec Docker sur Azure
+
+Profil recherché (indispensable)
+- Excellente maîtrise de Python
+- Connaissances en LLM et en deep learning
+- Bonnes bases en MLOps
+- Maîtrise de Git
+- Anglais professionnel
+
+Compétences appréciées
+- Expérience avec LangGraph ou LangChain
+- Connaissance de SQL
+- Esprit d'équipe
+- Computer vision

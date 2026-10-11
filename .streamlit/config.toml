@@ -1,0 +1,9 @@
+[server]
+headless = true
+maxUploadSize = 5          # Mo
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#4F46E5"
